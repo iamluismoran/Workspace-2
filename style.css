@@ -65,12 +65,24 @@ h2{
     border-style: solid;
     border-color: rgb(102, 24, 237);
 }
+
+.ig04{
+    width: 200px;
+    height: 250;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(102, 24, 237);
+}
+
 td{
     color: rgb(240, 232, 255);
 }
-#imgg{
+.imgg{
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
+    gap: 80px;
 
 }
 .logo {
