@@ -1,0 +1,108 @@
+body {
+    margin: 100px;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(6, 3, 10);
+}
+
+ul{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+     color: rgb(240, 232, 255);
+     font-size: 30px;
+     width: 100%;
+     display: flex;
+  
+}
+.heros{
+    width: 100%; height: 40px;
+}
+
+.inicio{
+    text-align: center; 
+}
+
+p{
+    color: rgb(240, 232, 255);
+    font-size: 15px;
+}
+
+h2{
+    color: rgb(102, 24, 237);
+    font-size: 25px; 
+}
+
+.li{
+    color: rgb(240, 232, 255);
+}
+
+.img01{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(102, 24, 237);
+    
+}
+.ig02{
+    width: 200px;
+    height: 250;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(102, 24, 237);
+}
+.ig03{
+    width: 200px;
+    height: 250;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(102, 24, 237);
+}
+td{
+    color: rgb(240, 232, 255);
+}
+#imgg{
+    display: flex;
+    justify-content: center;
+
+}
+.logo {
+    color: rgb(240, 232, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.cantantes-table{
+    width: 100%;
+    border-collapse: collapse ;
+    margin: 4rem 0;
+    text-align: left;
+    background-color: rgb(102, 24, 237);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px rgb(179, 135, 254);
+}
+
+.cantantes-table thead{
+    color: rgb(102, 24, 237);
+    background-color: rgb(240, 232, 255);
+}
+
+.cantantes-table th, .cantantes-table td{
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgb(240, 232, 255);
+}
+
+.cantantes-table tbody tr:nth-child(2n+1){
+    background-color: rgb(76, 12, 187);
+}
+
+.cantantes-table tbody tr:hover{
+    background-color: rgb(50, 12, 116);;
+}
