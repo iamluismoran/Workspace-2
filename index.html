@@ -8,17 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <header class="header">
-        <div class="logo"> Mundo Vocal</div>
-        <nav>
-            <img src="./fotos/HEROS(1).jpg" class="heros">
+    <header class="navbar">
+        <div class="navbar-content">
+         <div class="logo"> Mundo Vocal</div>
+         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#cantantes">Cantantes</a></li>
                 <li><a href="#conciertos">Conciertos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
-        </nav>
+         </nav>
+         </div> 
+        <div>
+            <img src="./fotos/HEROS(1).jpg" class="heros">
+        </div>
     </header>
     <main class="main">
         <section id="inicio" class="section">
@@ -38,6 +42,7 @@
         </section>
 
         <section id="conciertos" class="Conciertos">
+            <h2 class="titulo">Próximos Conciertos</h2>
             <table class="cantantes-table">
                 <thead>
                     <tr>
@@ -71,7 +76,7 @@
             </table>            
         </section>
     </main>
-    <footer class="footer">
+    <footer id="contacto" class="footer">
         <p>&copy; 2025 Mundo Vocal | Diseñado por Luis Morán</p>
     </footer>
 </body>

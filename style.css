@@ -1,43 +1,78 @@
 body {
-    margin: 100px;
+    margin: 10px;
     padding: 50px;
     font-family: Arial, sans-serif;
     background-color: rgb(6, 3, 10);
 }
 
-ul{
-   
+.navbar-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 0 10px;
+}
+
+.logo {
+    color: rgb(240, 232, 255);
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right;
+    background-color: rgb(102, 24, 237);
+    border-radius: 10px;
+    border: 2px solid rgb(179, 135, 254);
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(240, 232, 255);
+} 
+
+ul li a:hover{
+    color: rgb(102, 24, 237);
 }
 
 h1{
      color: rgb(240, 232, 255);
      font-size: 30px;
      width: 100%;
-     display: flex;
+     text-align: center;
   
 }
 .heros{
-    width: 100%; height: 40px;
+    width: 100%; height: 100px;
 }
 
-.inicio{
-    text-align: center; 
+#inicio{
+    text-align: center;
 }
 
 p{
     color: rgb(240, 232, 255);
     font-size: 15px;
+    text-align: center;
 }
 
 h2{
     color: rgb(102, 24, 237);
-    font-size: 25px; 
+    font-size: 40px;
+    text-align: center;
 }
 
-.li{
-    color: rgb(240, 232, 255);
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 10px 10px 10px;
 }
 
 .img01{
@@ -85,11 +120,7 @@ td{
     gap: 80px;
 
 }
-.logo {
-    color: rgb(240, 232, 255);
-    font-size: 1.5rem;
-    font-weight: 600;
-}
+
 .cantantes-table{
     width: 100%;
     border-collapse: collapse ;
